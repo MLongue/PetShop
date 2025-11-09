@@ -25,4 +25,4 @@ Rodapé: informações de autoria e contato.
 
 Publicação:
 O site está hospedado via GitHub Pages no link:
-https://mlongue.github.io/PetShop-Fundamentos-de-Sistemas-Web-/
+https://mlongue.github.io/PetShop/
