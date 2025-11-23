@@ -1,49 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Produtos - Petshop Longue</title>
-    </head>
 
-    <body>
-        <header>
-            <h1>PetShop Longue</h1>
-            <nav>
-            <a href="index.html">Início</a> |
-            <a href="produtos.html">Produtos</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos - Petshop Longue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Produtos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a class="ativo" href="produtos.html">Produtos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
         </nav>
-        <hr>
-        </header>
-    </body>
+    </header>
 
-    <main>
+    <section class="produtos-lista">
         <h2>Nossos Produtos</h2>
+        <h1>Acessórios</h1>
+        <div class="grid">
+            <div class="cardProduto">
+                <h3>Coleira ajustável</h3>
+                <p><img src="imagens/coleira.png" alt="Coleira para cães" width="150"><br></p>
+                <p><strong>Custo:</strong> R$ 25,00</p>
+            </div>
 
-        <h3>Acessórios</h3>
-        <p><img src="imagens/coleira.jpg" alt="Coleira para cães" width="150"><br>Coleira ajustável - R$ 25,00</p>
-        <p><img src="imagens/brinquedo.jpg" alt="Brinquedo de borracha" width="150"><br>Brinquedo mordedor - R$ 18,00</p>
+            <div class="cardProduto">
+                <h3>Brinquedo mordedor</h3>
+                <p><img src="imagens/brinquedo.png" alt="Brinquedo de borracha" width="150"><br></p>
+                <p><strong>Custo:</strong> R$ 18,00</p>
+            </div>
+        </div>
+        <h1>Rações</h1>
+        <div class="grid">
+            <div class="cardProduto">
+                <h3>Ração Premiun 1kg</h3>
+                <p><img src="imagens/racao1.png" alt="Ração Premiun" width="150"><br></p>
+                <p><strong>Custo:</strong> R$ 35,00</p>
+            </div>
+            <div class="cardProduto">
+                <h3>Ração Light 1kg</h3>
+                <p><img src="imagens/racao2.png" alt="Ração light" width="150"><br></p>
+                <p><strong>Custo:</strong> R$ 32,00</p>
+            </div>
+        </div>
 
-        <h3>Rações</h3>
-        <p><img src="imagens/racao1.jpg" alt="Ração premium" width="150"><br>Ração Premium 1kg - R$ 35,00</p>
-        <p><img src="imagens/racao2.jpg" alt="Ração light" width="150"><br>Ração Light 1kg - R$ 32,00</p>
-
-        <h3>Higiene e Limpeza</h3>
-        <p><img src="imagens/tapete.jpg" alt="Tapete higiênico" width="150"><br>Tapete Higiênico - R$ 40,00</p>
-        <p><img src="imagens/fralda.jpg" alt="Fralda pet" width="150"><br>Fralda pet (pacote com 10) - R$ 28,00</p>
-    </main>
+        <h1>Higiene e Limpeza</h1>
+        <div class="grid">
+            <div class="cardProduto">
+                <h3>Tapete Higiênico</h3>
+                <p><img src="imagens/tapete.png" alt="Tapete higiênico" width="150"><br></p>
+                <p><strong>Custo:</strong> R$ 40,00</p>
+            </div>
+            <div class="cardProduto">
+                <h3>Fralda pet (pacote com 10)</h3>
+                <p><img src="imagens/fralda.png" alt="Fralda pet" width="150"><br></p>
+                <p><strong>Custo:</strong> R$ 28,00</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <hr>
         <p>&copy; 2025 PetShop Longue. Todos os direitos reservados.</p>
-        <p>Contato: (99) 90000-0099 | contato@petlongue.com</p>
-        <nav>
-            <a href="index.html">Início</a> |
-            <a href="produtos.html">Produtos</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
+        <p>Contado: (99) 90000-0099 | contato@petlongue.com</p>
     </footer>
+</body>
 
 </html>

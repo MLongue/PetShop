@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento - PetShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Agendamento</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a class="ativo" href="agendamento.html">Agendamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a  href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Agende o serviço para seu pet</h2>
+
+            <form>
+                <label for="servico">Serviço:</label>
+                <select id="servico" required>
+                    <option value="">Selecione</option>
+                    <option value="banho">Banho</option>
+                    <option value="tosa">Tosa</option>
+                </select>
+
+                <label>Método de agendamento:</label>
+                <input type="radio" name="metodo" value="telebusca" required> Tele-busca
+                <input type="radio" name="metodo" value="local" required> Entregar no local
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" required>
+
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - PetShop</p>
+    </footer>
+
+</body>
+
+</html>
